@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "rAEDNxJnm5/9Rt1xv97tOvQPtKVXA7oz5iChBu7T1qo=",
+  "Source": "HelloWebApplication",
+  "BasePath": "_content/HelloWebApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HelloWebApplication\\wwwroot",
+      "Source": "HelloWebApplication",
+      "ContentRoot": "C:\\Factory\\Formation\\Formation\\HelloWebApplication\\wwwroot\\",
+      "BasePath": "_content/HelloWebApplication",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Factory\\Formation\\Formation\\HelloWebApplication\\wwwroot\\ego.jpg",
+      "SourceId": "HelloWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Factory\\Formation\\Formation\\HelloWebApplication\\wwwroot\\",
+      "BasePath": "_content/HelloWebApplication",
+      "RelativePath": "ego.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ego.jpg"
+    }
+  ]
+}
