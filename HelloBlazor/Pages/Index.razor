@@ -1,0 +1,34 @@
+﻿@page "/"
+@using System.Timers;
+
+<div>
+    <em>Date du jour</em>
+    <mark>@Maintenant.ToString("d")</mark>
+</div>
+<div>
+    <em>Heure</em>
+    <mark>@Maintenant.ToString("T")</mark>
+</div>
+<div>
+    <button @onclick="mettreAJourMaintenant">rafraichir</button>
+</div>
+
+@code{
+    public DateTime Maintenant { get; set; } = DateTime.Now;
+
+    public void mettreAJourMaintenant()
+    {
+        Maintenant = DateTime.Now;
+    }
+
+    protected override void OnInitialized()
+    {
+        Timer timer = new Timer();
+        timer.Interval = 1000;
+        timer.Elapsed += new System.Timers.ElapsedEventHandler((s,e) => { 
+            mettreAJourMaintenant(); 
+            StateHasChanged(); });
+        timer.Start();
+        base.OnInitialized();
+    }
+}

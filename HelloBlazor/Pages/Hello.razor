@@ -1,0 +1,25 @@
+﻿@page "/dis-bonjour"
+
+<h2>La page qui dit bonjour</h2>
+<hr />
+<input placeholder="mon prénom" @bind="Prenom" @bind:event="oninput" />
+<select @onchange="SelectionnerCouleur">
+    @if (Couleurs != null)
+    {
+        <option>ma couleur</option>
+        @foreach (var c in Couleurs)
+        {
+            <option value="@c.Code" style="color:@c.Code">@c.Libelle</option>
+        }
+    } 
+    else
+    {
+        <option>Chargement en cours...</option>
+    }
+</select>
+@if (EstMessageAffichable)
+{
+    <h1 option style="color:@CouleurSelectionnee?.Code">@Message</h1>
+}
+
+@code {}
