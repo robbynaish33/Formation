@@ -1,0 +1,15 @@
+C:\Factory\Formation\Formation\HelloDotnet6\bin\Debug\net6.0\HelloDotnet6.exe
+C:\Factory\Formation\Formation\HelloDotnet6\bin\Debug\net6.0\HelloDotnet6.deps.json
+C:\Factory\Formation\Formation\HelloDotnet6\bin\Debug\net6.0\HelloDotnet6.runtimeconfig.json
+C:\Factory\Formation\Formation\HelloDotnet6\bin\Debug\net6.0\HelloDotnet6.dll
+C:\Factory\Formation\Formation\HelloDotnet6\bin\Debug\net6.0\ref\HelloDotnet6.dll
+C:\Factory\Formation\Formation\HelloDotnet6\bin\Debug\net6.0\HelloDotnet6.pdb
+C:\Factory\Formation\Formation\HelloDotnet6\obj\Debug\net6.0\HelloDotnet6.csproj.AssemblyReference.cache
+C:\Factory\Formation\Formation\HelloDotnet6\obj\Debug\net6.0\HelloDotnet6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Factory\Formation\Formation\HelloDotnet6\obj\Debug\net6.0\HelloDotnet6.AssemblyInfoInputs.cache
+C:\Factory\Formation\Formation\HelloDotnet6\obj\Debug\net6.0\HelloDotnet6.AssemblyInfo.cs
+C:\Factory\Formation\Formation\HelloDotnet6\obj\Debug\net6.0\HelloDotnet6.csproj.CoreCompileInputs.cache
+C:\Factory\Formation\Formation\HelloDotnet6\obj\Debug\net6.0\HelloDotnet6.dll
+C:\Factory\Formation\Formation\HelloDotnet6\obj\Debug\net6.0\ref\HelloDotnet6.dll
+C:\Factory\Formation\Formation\HelloDotnet6\obj\Debug\net6.0\HelloDotnet6.pdb
+C:\Factory\Formation\Formation\HelloDotnet6\obj\Debug\net6.0\HelloDotnet6.genruntimeconfig.cache
